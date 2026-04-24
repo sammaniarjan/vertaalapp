@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files)
+models/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# PyInstaller
+backend/dist/
+backend/build/
+*.spec.bak
+
+# Electron build output
+electron/dist/
+electron/node_modules/
+
+# ffmpeg binary + bundled dylibs (large, downloaded/generated at build time)
+electron/bin/ffmpeg
+electron/bin/libs/

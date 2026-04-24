@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+websockets
+transformers
+torch
+sentencepiece
+protobuf
+numpy
+psutil

@@ -1,0 +1,62 @@
+{
+  "name": "vertaalapp",
+  "version": "1.0.0",
+  "description": "Real-time spraakvertaling voor de gezondheidszorg",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --mac",
+    "pack": "electron-builder --mac --dir"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.manava.vertaalapp",
+    "productName": "Vertaalapp",
+    "copyright": "Copyright © 2026 Manava",
+    "mac": {
+      "category": "public.app-category.medical",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": ["arm64"]
+        }
+      ],
+      "icon": "icons/icon.icns",
+      "identity": null,
+      "minimumSystemVersion": "13.0",
+      "darkModeSupport": true
+    },
+    "dmg": {
+      "title": "Vertaalapp",
+      "contents": [
+        { "x": 130, "y": 220 },
+        { "x": 410, "y": 220, "type": "link", "path": "/Applications" }
+      ]
+    },
+    "extraResources": [
+      {
+        "from": "../backend/dist/backend",
+        "to": "backend"
+      },
+      {
+        "from": "../frontend/dist",
+        "to": "dist"
+      },
+      {
+        "from": "./bin/ffmpeg",
+        "to": "bin/ffmpeg"
+      },
+      {
+        "from": "./bin/libs",
+        "to": "bin/libs"
+      }
+    ],
+    "files": [
+      "main.js",
+      "preload.js"
+    ]
+  }
+}
