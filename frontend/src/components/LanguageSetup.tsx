@@ -155,7 +155,7 @@ export function LanguageSetup({ onReady }: LanguageSetupProps) {
         <div style={onboardingCard}>
           <div style={{ ...heading, fontSize: '36px', marginBottom: '10px' }}>Vertaalapp</div>
           <div style={onboardingSub}>
-            Spraakvertaling voor de gezondheidszorg
+            Real-time spraakvertaling tussen twee talen
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '32px', textAlign: 'left' }}>
@@ -164,9 +164,9 @@ export function LanguageSetup({ onReady }: LanguageSetupProps) {
               <div>
                 <div style={obFeatureTitle}>Gesprek in twee talen</div>
                 <div style={obFeatureDesc}>
-                  Arts en patiënt praten in hun eigen taal. De app luistert, herkent
+                  Twee personen praten elk in hun eigen taal. De app luistert, herkent
                   de spraak en vertaalt in real-time. Het scherm is verdeeld in twee
-                  helften — links voor u, rechts voor de patiënt.
+                  helften — één voor elke spreker.
                 </div>
               </div>
             </div>

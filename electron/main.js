@@ -185,7 +185,7 @@ app.on('ready', async () => {
     applicationVersion: '1.0.0',
     copyright: 'Copyright © 2026 Manava',
     website: 'https://www.manava.nl',
-    credits: 'Real-time spraakvertaling voor de gezondheidszorg.\nAlle vertalingen draaien lokaal — geen cloud, geen data-opslag.',
+    credits: 'Real-time spraakvertaling tussen twee talen.\nAlle vertalingen draaien lokaal — geen cloud, geen data-opslag.',
   });
 
   createWindow();

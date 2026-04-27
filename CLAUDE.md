@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Wat is dit?
-Real-time spraakvertaalapplicatie voor de gezondheidszorg. Arts en patiënt praten in hun eigen taal — alles draait lokaal (geen cloud, geen data-opslag). Eigenaar: Manava (www.manava.nl).
+Real-time spraakvertaalapplicatie. Twee personen praten elk in hun eigen taal — alles draait lokaal (geen cloud, geen data-opslag). Eigenaar: Manava (www.manava.nl).
 
 ## Tech stack
 - **Frontend**: React 19 + TypeScript + Vite (neumorphic UI, geen component library)

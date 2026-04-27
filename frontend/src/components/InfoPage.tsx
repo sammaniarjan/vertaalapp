@@ -52,15 +52,14 @@ export function InfoPage({ onBack }: InfoPageProps) {
         <div style={sectionTitle}>Wat is Vertaalapp?</div>
         <div style={card}>
           <div style={text}>
-            Vertaalapp is een <strong>real-time spraakvertaalapplicatie</strong> ontwikkeld
-            voor de gezondheidszorg. De app luistert naar gesproken taal, herkent wat er
-            gezegd wordt en vertaalt het direct naar de andere taal. Zo kunnen arts en
-            patiënt elkaar verstaan, ook als zij elkaars taal niet spreken.
+            Vertaalapp is een <strong>real-time spraakvertaalapplicatie</strong>.
+            De app luistert naar gesproken taal, herkent wat er gezegd wordt en
+            vertaalt het direct naar de andere taal. Zo kunnen twee personen elkaar
+            verstaan, ook als zij elkaars taal niet spreken.
           </div>
           <div style={{ ...textMuted, marginTop: '10px' }}>
             Vertaalapp ondersteunt meer dan 15 talen, waaronder Nederlands, Arabisch,
-            Turks, Farsi, Somalisch en Tigrinya — talen die in de Nederlandse zorg
-            veelvuldig voorkomen.
+            Turks, Farsi, Somalisch en Tigrinya.
           </div>
         </div>
 
@@ -74,9 +73,9 @@ export function InfoPage({ onBack }: InfoPageProps) {
           </div>
           <div style={{ ...text, marginTop: '10px' }}>
             <strong>2. Gesprek voeren</strong> — Plaats het apparaat tussen u en de
-            patiënt. Druk op de knop aan uw kant (links) om te spreken. De patiënt
-            drukt op de knop aan hun kant (rechts). U kunt ook de toetsen A en L
-            op het toetsenbord gebruiken.
+            andere spreker. Druk op de knop aan uw kant (links) om te spreken. De
+            andere spreker drukt op de knop aan hun kant (rechts). U kunt ook de
+            toetsen A en L op het toetsenbord gebruiken.
           </div>
           <div style={{ ...text, marginTop: '10px' }}>
             <strong>3. Vertaling verschijnt</strong> — De gesproken tekst wordt
@@ -85,26 +84,15 @@ export function InfoPage({ onBack }: InfoPageProps) {
           </div>
         </div>
 
-        {/* Inzet in de praktijk */}
-        <div style={sectionTitle}>Inzet in de praktijk</div>
+        {/* Kwaliteit van vertalingen */}
+        <div style={sectionTitle}>Kwaliteit van vertalingen</div>
         <div style={card}>
-          <div style={text}>
-            Vertaalapp is ontwikkeld voor situaties waar directe communicatie
-            essentieel is:
-          </div>
-          <ul style={{ ...text, paddingLeft: '18px', marginTop: '8px' }}>
-            <li>Huisartsconsulten met anderstalige patiënten</li>
-            <li>Intake- en triagegesprekken op de spoedeisende hulp</li>
-            <li>GGZ-gesprekken en psychologische intake</li>
-            <li>Apotheekgesprekken over medicatiegebruik</li>
-            <li>Voorlichtingsgesprekken en informed consent</li>
-          </ul>
           <div style={insetNote}>
             De vertalingen worden gegenereerd door AI-taalmodellen. De kwaliteit
-            is over het algemeen goed, maar niet foutloos — vooral bij medische
-            vaktermen, nuances en dialecten kunnen afwijkingen voorkomen.
-            Gebruik de vertaling als ondersteuning bij het gesprek, niet als
-            vervanging van een professionele tolk bij complexe medische beslissingen.
+            is over het algemeen goed, maar niet foutloos — vooral bij vaktermen,
+            nuances en dialecten kunnen afwijkingen voorkomen. Gebruik de
+            vertaling als ondersteuning bij het gesprek, niet als vervanging
+            van een professionele vertaler in situaties waar precisie cruciaal is.
           </div>
         </div>
 
@@ -130,7 +118,7 @@ export function InfoPage({ onBack }: InfoPageProps) {
             meer nodig.
           </div>
           <div style={{ ...text, marginTop: '12px' }}>
-            Vertaalapp slaat <strong>geen patiëntgegevens op</strong> en verwerkt
+            Vertaalapp slaat <strong>geen gespreksinhoud op</strong> en verwerkt
             geen persoonsgegevens in de zin van de AVG. De spraakherkenning en
             vertaling vinden uitsluitend plaats in het werkgeheugen van uw computer
             en worden niet opgeslagen op schijf.
@@ -218,9 +206,9 @@ export function InfoPage({ onBack }: InfoPageProps) {
             <a href="https://www.manava.nl" target="_blank" rel="noopener noreferrer" style={link}>
               Manava
             </a>
-            , een organisatie die zich richt op innovatie in zorg en technologie.
+            , een organisatie die zich richt op innovatie en technologie.
             Wij geloven dat taalbarrières geen belemmering mogen zijn voor
-            goede zorg.
+            goede communicatie.
           </div>
           <div style={{ ...textMuted, marginTop: '10px' }}>
             Voor vragen, feedback of samenwerkingen kunt u contact opnemen via{' '}
@@ -244,7 +232,7 @@ export function InfoPage({ onBack }: InfoPageProps) {
             Dit product wordt aangeboden zonder garantie. Manava is niet
             aansprakelijk voor schade voortvloeiend uit het gebruik van
             vertalingen gegenereerd door deze applicatie. Raadpleeg bij
-            twijfel altijd een professionele tolk.
+            twijfel altijd een professionele vertaler.
           </div>
         </div>
 

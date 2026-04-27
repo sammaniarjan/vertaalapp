@@ -1,7 +1,7 @@
 {
   "name": "vertaalapp",
   "version": "1.0.0",
-  "description": "Real-time spraakvertaling voor de gezondheidszorg",
+  "description": "Real-time spraakvertaling tussen twee talen",
   "main": "main.js",
   "scripts": {
     "start": "electron .",

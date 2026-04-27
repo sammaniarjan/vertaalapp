@@ -12,7 +12,7 @@
 
 - **`CLAUDE.md`** — Hele "Licentiesysteem — Plan" sectie verwijderd (regels 119-163). Licentiesysteem is nog niet gebouwd en hoort niet in de build-documentatie.
 - **`frontend/package.json`** — Versie van `"0.0.0"` naar `"1.0.0"` gezet, consistent met electron en backend.
-- **`electron/package.json`** — Beschrijving gewijzigd van "Real-time Dutch-Arabic speech translation app" naar "Real-time spraakvertaling voor de gezondheidszorg".
+- **`electron/package.json`** — Beschrijving gewijzigd van "Real-time Dutch-Arabic speech translation app" naar "Real-time spraakvertaling tussen twee talen".
 - **`backend/app/main.py`** — Zelfde beschrijvingswijziging op regel 55 (FastAPI title).
 
 ### 2. Beveiligingsfix — backend gebonden aan localhost
@@ -31,7 +31,7 @@
 
 ### 4. Google Fonts lokaal gebundeld
 
-**Probleem:** `frontend/src/index.css` en `electron/main.js` laden fonts van `fonts.googleapis.com`. Dit is een privacyrisico voor een zorg-app (Google ontvangt IP-adressen van gebruikers) en werkt niet offline.
+**Probleem:** `frontend/src/index.css` en `electron/main.js` laden fonts van `fonts.googleapis.com`. Dit is een privacyrisico (Google ontvangt IP-adressen van gebruikers) en werkt niet offline.
 
 **Oplossing:**
 - Drie font-families gedownload als `.woff2` van Google Fonts API:

@@ -53,7 +53,7 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
 
 app = FastAPI(
     title="Vertaalapp",
-    description="Real-time spraakvertaling voor de gezondheidszorg",
+    description="Real-time spraakvertaling tussen twee talen",
     version="1.0.0",
     lifespan=lifespan,
 )
